@@ -38,32 +38,6 @@ Styling: Tailwind CSS, Lucide React (Icons)
 
 Runtime: Node.js
 
-💻 Getting Started
-
-Prerequisites
-
-Node.js (LTS Version) must be installed on your machine.
-
-Installation
-
-Clone the repository:
-
-git clone [https://github.com/your-username/web-sentinel.git](https://github.com/your-username/web-sentinel.git)
-cd web-sentinel
-
-
-Install dependencies:
-
-npm install
-
-
-Start the application:
-
-npm run dev
-
-
-Open your browser and navigate to the link shown in the terminal (usually http://localhost:5173).
-
 🔍 How It Works
 
 The system analyzes the request URL and query parameters against a database of known attack signatures:
@@ -91,17 +65,3 @@ PCAP Ingestion: Support for parsing raw .pcap network files using PyShark/Scapy.
 AI Anomaly Detection: Implementing ML models to detect unknown "Zero-day" attacks.
 
 Export Reports: Ability to export threat reports as PDF/CSV for compliance.
-
-🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
